@@ -1,1 +1,1 @@
-1. Running a pyhton script
+1. Running a python script
