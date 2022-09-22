@@ -8,5 +8,6 @@ if __name__ == "__main__":
     elif(len(sys.argv) - 1) > 1:
         print("{:d} arguments:".format(len(sys.argv) - 1))
         for arg in range(len(sys.argv)):
-            print("{}: {}".format(x, sys.argv[x]))
-            x = x + 1
+            while (x < len(sys.argv)):
+                print("{}: {}".format(x, sys.argv[x]))
+                x = x + 1
