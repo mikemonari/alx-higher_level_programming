@@ -2,4 +2,5 @@
 if __name__ == "__main__":
     def print_list_integer(my_list=[]):
         for x in my_list:
-           print(f"{x}")
+           print("{:d}".format(x))
+print_list_integer(my_list = [1, 2, 3, 4, 5])
