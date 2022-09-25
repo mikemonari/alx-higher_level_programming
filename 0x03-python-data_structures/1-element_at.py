@@ -6,4 +6,4 @@ if __name__ == "__main__":
         elif idx > len(my_list):
             return None
         else:
-            print("{}".format(my_list[idx]))
+            return("{}".format(my_list[idx]))
