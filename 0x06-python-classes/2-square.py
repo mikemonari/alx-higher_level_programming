@@ -4,8 +4,8 @@ class Square:
     """create a template for instances"""
     def __init__(self, size=0):
         """instatiation of new instance
-        size:
-            instance attribute of int type
+        Args:
+            size instance attribute of int type
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
