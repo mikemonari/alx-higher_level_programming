@@ -5,7 +5,11 @@ class Rectangle which defines a rectangle
 class Rectangle:
     """Rectangle that made by width and height"""
     def __init__(self, width, height):
-        """initializing the objects"""
+        """initializing the object
+        Args:
+            width: width of the rectangle
+            height: height of the rectangle
+        """
         self.__width = width
         self.__height = height
     @property
